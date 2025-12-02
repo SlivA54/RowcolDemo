@@ -44,7 +44,11 @@ fun MainScreen(modifier: Modifier = Modifier) {
         TextCell("2")
         TextCell("3")
     }
-
+    Column(modifier) {
+        TextCell("1")
+        TextCell("2")
+        TextCell("3")
+    }
 }
 
 
